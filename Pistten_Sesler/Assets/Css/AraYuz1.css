@@ -1,0 +1,209 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.SayfaTasiyici {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.AltKisim {
+    min-height: 200px;
+    background-color: #efefef;
+}
+
+.HeaderTasiyici {
+    margin: 20px 0;
+    color: #345C8C;
+}
+
+    .HeaderTasiyici h2 {
+        float: left;
+    }
+
+.UyeGiris {
+    width: 500px;
+    float: right;
+}
+
+.UyeOlButton {
+    color: #345C8C;
+    margin-right: 25px;
+    float: right;
+}
+
+.GirisYapButton {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #C5A572;
+    float: right;
+    margin-top: -5px;
+}
+
+.AnaMenuTasiyici {
+    border: 1px solid #304269;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+    .AnaMenuTasiyici a {
+        padding: 10px;
+        padding-left: 0;
+        text-decoration: none;
+        color: #8A8A8A;
+    }
+
+.IcerikTasiyici {
+    margin-top: 10px;
+}
+
+.Makaleler {
+    width: 1000px;
+    float: left;
+}
+
+.ReklamAlani {
+    width: 160px;
+    float: left;
+    padding-left: 20px;
+}
+
+.Makale {
+    margin-bottom: 35px;
+}
+
+.ResimUstu {
+    margin-top: -50px;
+}
+
+.KategoriYazar {
+    color: #8A8A8A;
+    border: 1px solid #8A8A8A;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+    .KategoriYazar label {
+        float: left;
+    }
+
+    .KategoriYazar span {
+        float: right;
+    }
+
+.YaziDevam {
+    color: #345C8C;
+}
+
+.GirisTasiyici {
+    border: 1px solid #8A8A8A;
+    padding: 20px;
+    width: 370px;
+    min-height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.Golge {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+}
+
+.Satir {
+    padding: 7px 0;
+}
+
+    .Satir label {
+        color: #345C8C;
+    }
+
+    .Satir .MetinKutu {
+        width: 340px;
+        padding: 10px;
+        border-radius: 7px;
+        border: 1px solid #8A8A8A;
+        color: #8A8A8A;
+    }
+
+.Buton {
+    width: 360px;
+    padding: 10px 0;
+    background-color: #C5A572;
+    color: white;
+    font-weight: 900;
+    font-size: 14pt;
+    border-radius: 15px;
+    border: none;
+}
+
+    .Buton:hover {
+        background-color: #D6B77F;
+        cursor: pointer;
+    }
+
+.YorumTasiyici {
+}
+
+.YorumBaslik {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid #8A8A8A;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #4A4A4A;
+    color: #E0E0E0;
+}
+
+.YorumIcerik {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid #8A8A8A;
+    border-top: none;
+    padding: 10px;
+}
+
+.GirisYapLink {
+    text-decoration: none;
+    color: #345C8C;
+}
+
+.YorumSatir {
+    padding: 15px 0;
+}
+
+.YorumMetinKutu {
+    width: 960px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #0bc172;
+    color: #001473;
+}
+
+.BasariliPanel {
+    background-color: #a6ffa8;
+    color: #0c7a0e;
+    border: 1px solid #0c7a0e;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.BasarisizPanel {
+    background-color: #ffb3b3;
+    color: #9a0b0b;
+    border: 1px solid #9a0b0b;
+    border-radius: 7px;
+    padding: 20px;
+}
+

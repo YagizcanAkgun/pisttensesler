@@ -1,0 +1,82 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url(../Resimler/images1.png);
+    background-size: 100%;
+    font-family: Calibri;
+}
+.Golge {
+    box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+    -webkit-box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+    -moz-box-shadow: 9px 9px 5px -1px rgba(21,107,153,0.33);
+}
+.AnaTasiyici {
+    width: 800px;
+    margin: 200px auto;
+    border: 1px solid silver;
+    background-color: white;
+    border-radius: 20px;
+}
+.Sol {
+    float: left;
+    width: 400px;
+    height: 348px;
+    background-image: url(../Resimler/GirisResim.jpg);
+    background-size: 440px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+.Sag {
+    float: left;
+    width: 360px;
+    padding: 20px;
+}
+.Baslik {
+    text-align: center;
+    color: #345C8C;
+    padding-bottom: 7px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 15px;
+}
+.Satir {
+    padding: 7px 0;
+}
+.MetinKutu {
+    width: 340px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #8A8A8A;
+    color: #8A8A8A;
+}
+.Buton {
+    width: 360px;
+    padding: 10px 0;
+    background-color: #C5A572;
+    color: white;
+    font-weight: 900;
+    font-size: 14pt;
+    border-radius: 15px;
+    border: none;
+}
+
+    .Buton:hover {
+        background-color: #D6B77F;
+        cursor: pointer;
+    }
+
+.SifremiUnuttum {
+    text-decoration: none;
+    color: #345C8C;
+}
+.Mesaj {
+    width: 340px;
+    padding: 10px;
+    color: white;
+    background-color: #ff9393;
+    border-radius: 7px;
+    border: 1px solid #7d0909;
+}

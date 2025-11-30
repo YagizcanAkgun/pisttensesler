@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AraYuz.Master.cs" Inherits="Pistten_Sesler.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pistten Sesler</title>
+    <link href="Assets/Css/AraYuz1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="SayfaTasiyici">
+            <div class="HeaderTasiyici">
+                <h2>Pistten Sesler <small style="font-size: 10pt; font-weight: 400;">Pistten sesler geliyor, hızın ritmi burada atıyor!</small> </h2>
+                <asp:Panel ID="Pnl_GirisYok" runat="server" class="UyeGiris">
+                    <a href="GirisYap.aspx" class="GirisYapButton">Giriş Yap</a>
+                    <a href="UyeOl.aspx" class="UyeOlButton">Üye Ol</a>
+                </asp:Panel>
+                <asp:Panel ID="Pnl_GirisVar" runat="server" CssClass="UyeGiris" Visible="false">
+                    <asp:LinkButton ID="Lbtn_Cikis" runat="server" CssClass="GirisYapButton" OnClick="Lbtn_Cikis_Click">Çıkış Yap</asp:LinkButton>
+                    <asp:Label ID="Lbl_Uye" runat="server" CssClass="UyeOlButton"></asp:Label>
+                </asp:Panel>
+                <div style="clear: both"></div>
+            </div>
+            <div class="AnaMenuTasiyici">
+                <asp:Repeater ID="Rp_Kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href="#"><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+            <div class="IcerikTasiyici">
+                <main class="Makaleler">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                </main>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div class="AltKisim">
+        </div>
+    </form>
+</body>
+</html>
